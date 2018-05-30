@@ -43,7 +43,7 @@ test('where finds objects with two search properties', function () {
   const expected = [{ id: '127', address: 'Wayne Manor', name: 'Alfred', age: 78 }]
 
   // Act
-  const actual = where(contacts, { age: 78, address: 'Wayne Manor' })
+  const actual = where(contacts, { address: 'Wayne Manor', age: 78 })
 
   // Assert
   expect(actual).toEqual(expected)
