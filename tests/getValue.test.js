@@ -14,4 +14,3 @@ test('getValue gets a nested object by key', function () {
   // Assert
   expect(actual).toEqual(expected)
 })
-
